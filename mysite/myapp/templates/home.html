@@ -1,1 +1,15 @@
-<h1>Home</h1>
+<!DOCTYPE html>
+{% load static %} <!--cargar carpeta 'static' a HTML-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> <!--Link a css-->
+</head>
+<body>
+    <h1>Home</h1>
+    <p>Visita el <a href = "/myapp">Buscador Avanzado</a></p>
+
+</body>
+</html>
