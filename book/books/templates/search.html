@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buscar libros</title>
+</head>
+<body>
+    <h1>Buscador de libros</h1>
+
+    <!-- Formulario de búsqueda -->
+    <form method="post">
+        {% csrf_token %}  <!-- Protege el formulario contra ataques CSRF -->
+        {{ form.as_p }}  <!-- Renderiza el formulario como párrafos (cada campo en su propia línea) -->
+        <input type="submit" value="Buscar">
+    </form>
+
+    <h2>Resultados de la búsqueda</h2>
+    <ul>
+        {% for book in results %}  <!-- Itera sobre los libros encontrados -->
+            <li>{{ book.title }} - {{ book.author }}</li>  <!-- Muestra el título y autor del libro -->
+        {% empty %}
+            <li>No se encontraron resultados.</li>  <!-- Muestra este mensaje si no hay resultados -->
+        {% endfor %}
+    </ul>
+</body>
+</html>
