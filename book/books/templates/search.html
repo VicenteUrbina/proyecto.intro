@@ -7,18 +7,32 @@
     <h1>Buscador de libros</h1>
 
     <!-- Formulario de búsqueda -->
-    <form method="post">
-        {% csrf_token %}  <!-- Protege el formulario contra ataques CSRF -->
-        {{ form.as_p }}  <!-- Renderiza el formulario como párrafos (cada campo en su propia línea) -->
+    <form method="post" action="{% url 'search_books' %}">
+        {% csrf_token %} <!-- Protege el formulario contra ataques CSRF -->
+        {{ form.as_p }} <!-- Renderiza el formulario como párrafos -->
         <input type="submit" value="Buscar">
     </form>
 
+    <!-- Mostrar resultados de la búsqueda -->
     <h2>Resultados de la búsqueda</h2>
     <ul>
-        {% for book in results %}  <!-- Itera sobre los libros encontrados -->
-            <li>{{ book.title }} - {{ book.author }}</li>  <!-- Muestra el título y autor del libro -->
+        {% for book in results %}
+            <li>
+                <strong>{{ book.title }}</strong> - {{ book.author }}
+                <p>{{ book.summary }}</p>
+
+                <!-- Mostrar criterios coincidentes -->
+                {% if matched_criteria.book %}
+                    <p><em>Criterios coincidentes:</em></p>
+                    <ul>
+                        {% for criterion in matched_criteria.book %}
+                            <li>{{ criterion }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
         {% empty %}
-            <li>No se encontraron resultados.</li>  <!-- Muestra este mensaje si no hay resultados -->
+            <li>No se encontraron resultados para tu búsqueda.</li>
         {% endfor %}
     </ul>
 </body>
