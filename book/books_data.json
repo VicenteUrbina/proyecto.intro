@@ -1,0 +1,231 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "Aventura en la Playa",
+            "author": "Juan Pérez",
+            "summary": "Un grupo de amigos vive una emocionante aventura en la playa, donde descubren un tesoro escondido.",
+            "tags": "aventura, amistad, tesoro",
+            "genre": "Novela",
+            "period": "años 80",
+            "location": "playa",
+            "protagonist_mood": "emocionado",
+            "theme": "amistad y superación",
+            "secondary_characters": "amigos fieles",
+            "setting": "ambiente costero"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Cazadores de Misterios",
+            "author": "Lucía Montes",
+            "summary": "En una ciudad antigua, un grupo de jóvenes resuelve misterios relacionados con antiguas civilizaciones.",
+            "tags": "misterio, investigación, historia",
+            "genre": "Misterio",
+            "period": "años 90",
+            "location": "ciudad histórica",
+            "protagonist_mood": "curioso",
+            "theme": "aventura y descubrimiento",
+            "secondary_characters": "arqueólogos, historiadores",
+            "setting": "ciudad con ruinas arqueológicas"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Recuerdos del Pasado",
+            "author": "Ana Martínez",
+            "summary": "Un hombre vuelve a su pueblo natal para revivir viejos recuerdos y enfrentar su pasado.",
+            "tags": "drama, nostalgia, introspección",
+            "genre": "Drama",
+            "period": "años 70",
+            "location": "pueblo rural",
+            "protagonist_mood": "melancólico",
+            "theme": "aceptación y redención",
+            "secondary_characters": "familia, amigos de la infancia",
+            "setting": "pueblo tranquilo con paisajes naturales"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "El Último Héroe",
+            "author": "Carlos Rivas",
+            "summary": "Un héroe solitario lucha por proteger su ciudad de una invasión inminente.",
+            "tags": "acción, héroe, invasión",
+            "genre": "Acción",
+            "period": "futuro cercano",
+            "location": "ciudad futurista",
+            "protagonist_mood": "determinado",
+            "theme": "sacrificio y valentía",
+            "secondary_characters": "compañeros de lucha",
+            "setting": "ciudad moderna con tecnología avanzada"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "El Camino de las Sombras",
+            "author": "Brent Weeks",
+            "summary": "Un joven huérfano se convierte en aprendiz de un asesino en un oscuro mundo lleno de traición y secretos.",
+            "tags": "fantasía, protagonista conflictivo, violencia, ciudad oscura, siglo XVIII, acción, estilo narrativo sombrío"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "title": "La Sombra del Viento",
+            "author": "Carlos Ruiz Zafón",
+            "summary": "Daniel encuentra un libro misterioso que lo lleva a descubrir oscuros secretos en la Barcelona de la posguerra.",
+            "tags": "misterio, intriga, España, posguerra, siglo XX, historia, drama, estilo descriptivo"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "title": "Cumbres Borrascosas",
+            "author": "Emily Brontë",
+            "summary": "La historia de amor y venganza de Heathcliff, un huérfano con una vida llena de emociones intensas en los páramos ingleses.",
+            "tags": "romance, celos, campo inglés, siglo XIX, tragedia, pasión, estilo narrativo intenso"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "title": "1984",
+            "author": "George Orwell",
+            "summary": "Un hombre lucha contra un gobierno totalitario que controla todos los aspectos de la vida y reprime la libertad individual.",
+            "tags": "distopía, protagonista rebelde, opresión, ciudad, futuro, política, crítica social, estilo narrativo directo"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "title": "El Alquimista",
+            "author": "Paulo Coelho",
+            "summary": "Santiago, un joven pastor, emprende un viaje para encontrar su leyenda personal en el desierto de Egipto.",
+            "tags": "aventura, realización personal, Egipto, antigüedad, inspiración, desarrollo personal, estilo lírico"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "title": "Matar a un Ruiseñor",
+            "author": "Harper Lee",
+            "summary": "Scout y su hermano Jem crecen en una pequeña ciudad de Alabama, enfrentándose a la injusticia racial.",
+            "tags": "infancia, justicia, Estados Unidos, años 30, crítica social, racismo, estilo narrativo reflexivo"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 11,
+        "fields": {
+            "title": "Orgullo y Prejuicio",
+            "author": "Jane Austen",
+            "summary": "La historia de amor entre Elizabeth Bennet y Mr. Darcy en una sociedad inglesa llena de prejuicios sociales.",
+            "tags": "romance, orgullo, Inglaterra, siglo XIX, comedia de costumbres, amor, estilo elegante"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 12,
+        "fields": {
+            "title": "El Gran Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "summary": "Jay Gatsby, un misterioso millonario, busca recuperar el amor de Daisy en el contexto de la alta sociedad de los años 20.",
+            "tags": "tragedia, amor perdido, Nueva York, años 20, crítica social, ambición, estilo narrativo poético"
+
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 13,
+        "fields": {
+            "title": "Rayuela",
+            "author": "Julio Cortázar",
+            "summary": "Horacio Oliveira, un intelectual argentino en París, explora la vida, el amor y la filosofía en un formato literario único.",
+            "tags": "existencialismo, protagonista pensativo, París, siglo XX, experimental, narrativa no lineal, estilo innovador"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 14,
+        "fields": {
+            "title": "Crimen y Castigo",
+            "author": "Fiódor Dostoyevski",
+            "summary": "Raskolnikov, un joven empobrecido, justifica un asesinato, pero la culpa y el remordimiento lo llevan a la desesperación.",
+            "tags": "psicología, culpa, Rusia, siglo XIX, dilemas morales, crimen, estilo psicológico"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 15,
+        "fields": {
+            "title": "El Nombre de la Rosa",
+            "author": "Umberto Eco",
+            "summary": "En una abadía medieval, un monje franciscano investiga una serie de misteriosas muertes relacionadas con un libro prohibido.",
+            "tags": "misterio, religión, Italia, Edad Media, investigación, intriga, estilo detallado"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 16,
+        "fields": {
+            "title": "Cien Años de Soledad",
+            "author": "Gabriel García Márquez",
+            "summary": "La familia Buendía vive en el pueblo ficticio de Macondo, donde experimentan eventos mágicos y tragedias a lo largo de generaciones.",
+            "tags": "realismo mágico, saga familiar, Colombia, siglo XX, destino trágico, surrealismo, estilo poético"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 17,
+        "fields": {
+            "title": "La Metamorfosis",
+            "author": "Franz Kafka",
+            "summary": "Gregor Samsa, un joven vendedor, despierta convertido en un insecto gigante, enfrentando rechazo y soledad.",
+            "tags": "absurdo, alienación, Alemania, siglo XX, existencia, familia, estilo oscuro"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 18,
+        "fields": {
+            "title": "El Principito",
+            "author": "Antoine de Saint-Exupéry",
+            "summary": "Un piloto conoce a un niño extraterrestre en el desierto del Sahara, quien le cuenta sus viajes y experiencias.",
+            "tags": "infantil, filosofía, desierto, siglo XX, inocencia, amistad, estilo poético"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 19,
+        "fields": {
+            "title": "Los Miserables",
+            "author": "Victor Hugo",
+            "summary": "Jean Valjean, un convicto reformado, trata de rehacer su vida mientras escapa del implacable inspector Javert.",
+            "tags": "redención, justicia, Francia, siglo XIX, pobreza, lucha social, estilo épico"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 20,
+        "fields": {
+            "title": "Don Quijote de la Mancha",
+            "author": "Miguel de Cervantes",
+            "summary": "Don Quijote, un caballero idealista, y su escudero Sancho Panza viven aventuras en busca de justicia y caballerosidad.",
+            "tags": "sátira, aventuras, España, Renacimiento, idealismo, comedia, estilo narrativo humorístico"
+        }
+    }
+]

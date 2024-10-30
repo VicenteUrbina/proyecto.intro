@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views  # Importa las vistas desde el archivo views.py
+from . import views
 
 urlpatterns = [
-    path('search/', views.search_books, name='search_books'),
+    path('search/', views.search_books, name='search_books'),  # Ruta para el buscador
 ]
