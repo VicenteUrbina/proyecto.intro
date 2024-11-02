@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+    color: white;
+}
+.Title_Welcome{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    text-align: center;
+}
+body{
+    background-image: url("{% static 'my_app/images/fondo.jpg' %}");
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+}
+.Form_Search{
+    align-items: center;
+    border-radius: 1px white;
+    border: 2px solid white;
+}
